@@ -1,0 +1,36 @@
+body {
+  background: rgb(59, 53, 168);
+  background: radial-gradient(
+    circle,
+    rgba(59, 53, 168, 1) 0%,
+    rgba(128, 108, 112, 0.8656929347826087) 36%,
+    rgba(0, 212, 255, 1) 100%
+  );
+  color: aliceblue;
+}
+.top-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.middle-container {
+  display: flex;
+  gap: 50px;
+  margin: 50px;
+  justify-content: center;
+  align-items: center;
+}
+
+footer {
+  text-align: center;
+}
+
+.outline {
+  border-width: 2px;
+  border-style: solid;
+  border-color: black;
+  height: 100vh;
+  border-radius: 20px;
+}
